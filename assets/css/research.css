@@ -415,7 +415,7 @@ svg line,svg path,svg circle,svg rect,svg polygon {
   transition:opacity .3s ease,filter .3s ease
 }
 .running .science-svg [data-step] {
-  opacity:.6
+  opacity:.74
 }
 .running .science-svg [data-step].active {
   opacity:1
@@ -1001,7 +1001,7 @@ svg line,svg path,svg circle,svg rect,svg polygon {
   }
 }
 .stepping .science-svg [data-step] {
-  opacity:.6
+  opacity:.74
 }
 .stepping .science-svg [data-step].active {
   opacity:1
@@ -1040,13 +1040,13 @@ svg line,svg path,svg circle,svg rect,svg polygon {
 
 /* Keep the scientific context legible while emphasizing the current operation. */
 .running .science-svg .active .step-marker,
-.stepping .science-svg .active .step-marker {fill:var(--ink)}
+.stepping .science-svg .active .step-marker {fill:#456578}
 .running .science-svg .active .step-number,
 .stepping .science-svg .active .step-number {fill:white}
 .running .science-svg .active .process-box,
-.stepping .science-svg .active .process-box {stroke-width:2.4}
+.stepping .science-svg .active .process-box {stroke-width:1.65}
 .running .science-svg .active .stage-title,
-.stepping .science-svg .active .stage-title {font-weight:750}
+.stepping .science-svg .active .stage-title {font-weight:600}
 
 /* Stage transcripts remain selectable and readable independently of playback. */
 .explanation-transcript {
@@ -1108,13 +1108,13 @@ svg line,svg path,svg circle,svg rect,svg polygon {
 .pane-heading {padding-inline:0;font-size:.7rem;color:#525a61}
 .pane-nav {padding:8px 0 0;gap:10px}
 .audio-status {margin-inline:0;font-size:.66rem}
-.science-svg {color:#30363b}
-.science-svg .diagram-input {fill:#edf4fa}
-.science-svg .diagram-process {fill:#fff6df}
-.science-svg .diagram-output {fill:#f8ebe8}
-.science-svg .diagram-note {fill:#f4f3ee}
-.science-svg .process-box,.science-svg .data-arrow,.science-svg .diagram-dependency {stroke:#7b838b}
-.science-svg .diagram-arrowhead {fill:#7b838b}
+.science-svg {color:#293f4d}
+.science-svg .diagram-input {fill:#eef5fa}
+.science-svg .diagram-process {fill:#f7f9fb}
+.science-svg .diagram-output {fill:#edf6f2}
+.science-svg .diagram-note {fill:#f7f7f4}
+.science-svg .process-box,.science-svg .data-arrow,.science-svg .diagram-dependency {stroke:#718694}
+.science-svg .diagram-arrowhead {fill:#718694}
 
 /* The existing player expands in place, retaining its media and cue state. */
 body.diagram-open {overflow:hidden}
